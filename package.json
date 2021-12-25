@@ -1,0 +1,26 @@
+{
+  "name": "nodeproyectos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --wacth index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "json-stringify-safe": "^5.0.1",
+    "socket.io": "^4.4.0",
+    "systeminformation": "^5.9.17"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.15",
+    "popper.js": "^1.16.1"
+  }
+}
